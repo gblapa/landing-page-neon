@@ -1,0 +1,57 @@
+.s-final {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .s-final-lado-esq {
+        .text {
+            max-width: 55rem;
+            .h3-aproveite {
+                font-weight: 600;
+                font-size: 4rem;
+                line-height: 112%;
+                letter-spacing: -1px;
+                color: rgba(198, 197, 206, 0.795);
+                margin-bottom: 0.9rem;
+            }
+        }
+        .all-components-s-final {
+            margin-bottom: 5rem;
+            .components-s-final {
+                display: flex;
+                align-items: center;
+                margin-top: 4.5rem;
+                h4 {
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 112%;
+                    letter-spacing: -0.5px;
+                    color: #5F5C6B;
+                    margin-bottom: 0.13rem;
+                }
+                img {
+                    margin-right: 2.6rem;
+                }
+            }
+        }
+    }
+    .s-final-lado-dir {
+        .circle {
+            position: absolute;
+            margin-left: 17rem;
+        }
+        .mockups {
+            display: flex;
+            .mockup-esq {
+                position: relative;
+                margin-top: 5.5rem;
+                margin-right: 2.7rem
+            }
+            .mokup-dir {
+                position: relative;
+                margin-top: -3rem;
+            }
+        }
+    }
+}

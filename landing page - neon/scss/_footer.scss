@@ -1,0 +1,91 @@
+footer {
+    background-color: $azul03;
+    margin-top: 15.4rem;
+    height: 62rem;
+    padding-top: 5rem;
+    .top {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 4.88rem;
+        border-bottom: solid 2px rgba(73, 196, 253, 0.199);
+        .text-top-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            img {
+                cursor: pointer;
+                &:not(last-child){
+                    padding-right: 3rem;
+                }
+            }
+            h6 {
+                padding-right: 3rem;
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 1.4rem;
+                line-height: 125%;
+                text-align: right;
+                color: rgba(255, 255, 255, 0.699);
+            }
+        }
+    }
+    .main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5.7rem;
+        border-bottom: solid 2px rgba(73, 196, 253, 0.199);
+        padding-bottom: 3.7rem;
+        .collumn {
+            h6 {
+                padding-bottom: 2.5rem;
+            }
+            a {
+                p {
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                    line-height: 1.7rem;
+                    color: rgba(255, 255, 255, 0.658);
+                    padding-bottom: 2.9rem;
+                    transition: all, 1.3s;
+                    &:hover {
+                        color: $amarelo;
+                    }
+                }
+            }
+        }
+        .cards-footer {
+            .card-footer {
+                display: flex;
+                border-radius: 6px;
+                background-color: rgba(0, 164, 240, 0.219);
+                width: 280px;
+                padding: 1.7rem 2.5rem;
+                margin-bottom: 2.4rem;
+                img {
+                    padding-right: 2.4rem;
+                }
+                p {
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        display: flex;
+        padding-top: 4rem;
+        p {
+            max-width: 66rem;
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 150%;
+            color: rgba(255, 255, 255, 0.795);
+            padding-left: 2.5rem;
+        }
+    }
+
+}
